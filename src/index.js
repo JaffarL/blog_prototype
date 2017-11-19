@@ -31,12 +31,12 @@ import React from "react";
 import ReactDOM from "react-dom";
 import {BrowserRouter,Route} from 'react-router-dom';
 import {Message} from './print.js'
-// import {Input} from "./component/login";
+import {Input} from "./component/login";
 
 ReactDOM.render((
     <BrowserRouter>
         <div>
-            <Route path="/" component={Message}/>
+            <Route path="/" component={Input}/>
             <Route path="/abd" component={Message}/>
         </div>
     </BrowserRouter>
